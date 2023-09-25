@@ -1,0 +1,2 @@
+!function(){const e=document.getElementById("carousel-container"),n=(e.childElementCount,Array.from(e.querySelectorAll(".carousel")));let t=0;console.error(e.clientWidth),console.error(n.length);const l=document.getElementById("carousel-arrow-prev");document.getElementById("carousel-arrow-next").addEventListener("click",(()=>{t=t===n.length-1?0:t+1,n.map((function(e,n){e.style.display=n===t?"flex":"none"}))})),l.addEventListener("click",(()=>{t=0===t?n.length-1:t-1,n.map((function(e,n){e.style.display=n===t?"flex":"none"}))}))}();
+//# sourceMappingURL=index.b7b31c32.js.map
